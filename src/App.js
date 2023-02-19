@@ -2,7 +2,6 @@ import React from "react";
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Web3 from "web3";
-import logo from "./logo.png";
 import "./App.css";
 // JSON containing ABI and Bytecode of compiled smart contracts
 import contractJson from "./artifacts/contracts/Crowdfund.sol/CrowdFunding.json";
@@ -103,6 +102,12 @@ function App() {
         </button>
 
       </center>
+      <div>
+        <p>Crowdfund dapp to gather funds</p>
+        <p>Can Request refund back when the target is not met</p>
+        <p>Funds are withdrawn by manager when the target is achieved</p>     
+     
+      </div>
       {/* Show account address */}
       <div className="text-center text-sm">{accountAddress}</div>
       <center className="mt-12">
