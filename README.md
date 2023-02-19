@@ -1,6 +1,6 @@
 
 
-<h1 align="center">crowdfund-dapp</h1>
+<h1 align="center">Crowdfund-dapp</h1>
 
 
 
